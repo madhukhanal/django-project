@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+</head>
+<body>
+    Yo i am Learning Django it is my like 2 day of learning and i am exited if you can print this msg.
+    <h1>My name is {{name}}</h1>
+    <button onclick="toSeeAge()">Click To Age</button>
+    <script src="{% static 'core/js/script.js' %}"></script>
+</body>
+</html>
